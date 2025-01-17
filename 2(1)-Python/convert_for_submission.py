@@ -15,12 +15,11 @@ PATH_SUB = "./submission"
 
 
 def f(n: str) -> None:
-    # 파일을 UTF-8 인코딩으로 읽기
-    num_code = "".join(filter(lambda x: "from lib import" not in x, open(f"{ROOT_PATH[n]}/{n}.py", encoding='utf-8').readlines()))
-    lib_code = open(f"{ROOT_PATH[n]}/lib.py", encoding='utf-8').read()
+    num_code = "".join(filter(lambda x: "from lib import" not in x, open(f"{ROOT_PATH[n]}/{n}.py").readlines()))
+    lib_code = open(f"{ROOT_PATH[n]}/lib.py").read()
     code = lib_code + "\n\n\n" + num_code
 
-    open(f"{PATH_SUB}/{n}.py", 'w', encoding='utf-8').write(code)
+    open(f"{PATH_SUB}/{n}.py", 'w').write(code)
 
 
 if __name__ == "__main__":
