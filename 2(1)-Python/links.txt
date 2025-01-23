@@ -3,4 +3,4 @@ https://www.acmicpc.net/source/88604430
 https://www.acmicpc.net/source/88604414
 https://www.acmicpc.net/source/88602517
 https://www.acmicpc.net/source/88600126
-https://www.acmicpc.net/source/88603371
+http://boj.kr/1c193ff7c4194c1f9e9a65be3aec5ee1
