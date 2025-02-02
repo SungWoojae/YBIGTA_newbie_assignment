@@ -172,3 +172,15 @@ cython_debug/
 .pypirc
 
 .DS_Store
+
+# Ignore large model checkpoint
+**/word2vec.pt
+**/checkpoint.pt
+
+pyproject.toml
+
+7\(2\)-CNN_RNN/model.py
+7\(2\)-CNN_RNN/test.py
+7\(2\)-CNN_RNN/train_word2vec.py
+
+data/
